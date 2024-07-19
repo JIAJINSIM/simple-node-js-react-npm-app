@@ -1,8 +1,11 @@
 #!/usr/bin/env sh
 
+# Navigate to the application directory
+cd /var/jenkins_home/workspace/simple-node-js-react-npm-app || exit
+
 echo 'The following "npm" command builds your Node.js/React application for'
 echo 'production in the local "build" directory (i.e. within the'
-echo '"/var/jenkins_home/workspace/simple-node-js-react-app" directory),'
+echo '"/var/jenkins_home/workspace/simple-node-js-react-npm-app" directory),'
 echo 'correctly bundles React in production mode and optimizes the build for'
 echo 'the best performance.'
 set -x
