@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+# Print the current directory for debugging
+pwd
+ls -la
+
 # Navigate to the application directory
 cd /var/jenkins_home/workspace/simple-node-js-react-npm-app || exit
 
